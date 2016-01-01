@@ -14,8 +14,8 @@ var URL_JQUERY = "http://code.jquery.com/jquery-1.11.3.min.js";
 var URL_BOOTSTRAP = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js";
 //var URL_SOCKET_IO = "https://cdn.socket.io/socket.io-1.3.5.js";
 var URL_FACEBOOK = "http://connect.facebook.net/en_US/sdk.js";
-var URL_MAIN_OUT = "/hkgagartool.js";
-var URL_CSS_FILE = "/hkgagartool.css"
+var URL_MAIN_OUT = "https://raw.githubusercontent.com/CMorgan513/Agar.io-HKG/master/hkgagartool.js";
+var URL_CSS_FILE = "https://raw.githubusercontent.com/CMorgan513/Agar.io-HKG/master/hkgagartool.css"
 
     if (location.host == "agar.io" && location.pathname == "/") {
 		location.href = "http://agar.io/aa" + location.hash;
